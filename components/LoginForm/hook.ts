@@ -1,7 +1,10 @@
 import { useState } from "react";
+import { useRouter } from "next/router";
 import { IState } from "./IState";
 
 export const useLoginForm = () => {
+    const router = useRouter();
+
     const [state, setState] = useState<IState>({
         email: "",
         password: "",
@@ -34,6 +37,8 @@ export const useLoginForm = () => {
                 ...prevState,
                 isLoading: false
             }));
+
+            router.push("/home")
         }, 3000)
     }
 

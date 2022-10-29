@@ -4,7 +4,6 @@ export default function Document() {
     return (
         <Html>
             <Head>
-                <title>Random Meal Generator</title>
             </Head>
             <body>
                 <Main />
