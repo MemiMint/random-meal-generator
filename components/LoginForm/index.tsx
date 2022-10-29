@@ -84,7 +84,7 @@ const LoginForm = (): JSX.Element => {
             }}
             >
                 <Button sx={{ backgroundColor: "#FB9300", color: "white" }} fullWidth onClick={onSubmit} >Sign in</Button>
-                <Typography level="body1" sx={{ mt: 2 }}>Don't have an account? <Link sx={{ color: "#FB9300" }} fontWeight="md">Request Now</Link></Typography>
+                <Typography level="body1" sx={{ mt: 2 }}>Don&apos;t have an account? <Link sx={{ color: "#FB9300" }} fontWeight="md">Request Now</Link></Typography>
             </Box>
         </Card>
     )
